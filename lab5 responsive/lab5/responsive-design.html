@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/c3505ef2ed.js" crossorigin="anonymous"></script>
+</head>
+    <style>
+        .flexible{
+            background-color: white;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 100px;
+        }
+        .product{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+       .content{
+            background-color:whitesmoke;
+            margin: 40px;
+            padding: 30px;
+       }
+       .botton{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        width: 200px;
+        color: white;
+        border: 1px solid black;
+        background-color: blue;
+        border-radius: 5px;
+        background-position: center;
+       }
+       @media (min-width:700px){
+            .flexible{
+                display: flex;
+                width: 50%;
+            }
+            .product{
+                width:30%;
+                
+            }
+            .content{
+                width:auto;
+            }
+            .wrap{
+                width: auto;
+            }
+            .botton{
+                width:200px;
+                display: block;
+            }
+       }
+    </style>
+<body>
+    <div class="flexible">
+        
+		<div class="product">
+            <img src="imgs/clock.jpg">
+        </div>
+
+        <div class="content">
+            Garmin Instinct, Rugged Outdoor Watch with GPS, 
+            Features GLONASS and Galileo, Heart Rate Monitoring and
+            3-axis Compass, Tundra<br><br>
+            <div class="wrap">
+                <a href="">
+                    <div class="botton">
+                        <i class="fa-solid fa-cart-plus fa-lg">
+                        Add to cart
+                    </i>
+                    </div>
+                </a>
+            </div>
+		</div>
+
+    </div>
+
+</body>
+</html>
